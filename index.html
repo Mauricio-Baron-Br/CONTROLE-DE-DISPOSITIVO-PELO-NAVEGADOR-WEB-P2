@@ -24,26 +24,22 @@
     <div class="corpo">
 		<h2 class="comandos">
 			<div class="lampada">
-				Para Acender a Lampada!
+				Acender a Lampada!
 			</div>
 			<div class="imagemLampada" align="center">
-				<img src="./img/lampadaapagada.png">
+				<img src="./img/lampadaapagada.png" id="lampada">
 			</div>
 			<div class="primeiroComandoLampada">
-				<form action="" align="center">
-					<button>Ligar</button>
-				</form>
+				<input type="button" id="btnlampada" name="ligar" onclick="liglampa();"  value="Ligar">
 			</div>
 			<div class="interuptor">
-				Para Ligar a Bancada!
+				Ligar a Bancada!
 			</div>
 			<div class="imagemInter" align="center">
-				<img src="./img/interuptordesligado.png">
+				<img src="./img/interuptordesligado.png" id="interuptor">
 			</div>
 			<div class="segunadoComandoInter">
-				<form action="" align="center">
-					<button>Ligar</button>
-				</form>
+				<input type="button" id="btninteruptor" name="ligarint" onclick="liginter();" value="Ligar">
 			</div>
 			<div class="porta">
 				Estado da Porta!
